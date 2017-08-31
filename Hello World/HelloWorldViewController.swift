@@ -9,7 +9,7 @@
 import UIKit
 
 class HelloWorldViewController: UIViewController {
-    @IBOutlet var messageLabel: UILabel!
+    @IBOutlet weak var messageLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()

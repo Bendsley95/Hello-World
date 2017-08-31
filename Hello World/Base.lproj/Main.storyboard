@@ -50,6 +50,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="messageLabel" destination="TB8-Y9-FGq" id="47R-gT-bc8"/>
                         <outletCollection property="MessageLabel" destination="TB8-Y9-FGq" collectionClass="NSMutableArray" id="EGR-Ex-M44"/>
                     </connections>
                 </viewController>
